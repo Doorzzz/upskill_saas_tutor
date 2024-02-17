@@ -46,6 +46,13 @@ group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
 end
 
+# Use Twitter Bootstrap library for frontend UI and layout
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+
+gem 'sass-rails', '~> 6.0'
+
+gem 'sassc-rails', '~> 2.1', '>= 2.1.2'
+
 group :development do
   # Use sqlite3 as the database for Active Record
   gem "sqlite3", "~> 1.4"
